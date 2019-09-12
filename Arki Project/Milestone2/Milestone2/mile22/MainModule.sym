@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="MainModule">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2017-5-3T10:3:35</timestamp>
+    <pin polarity="Input" x="0" y="-288" name="START" />
+    <pin polarity="Input" x="0" y="-32" name="CLK" />
+    <pin polarity="Output" x="416" y="-288" name="RegFileOut1(31:0)" />
+    <pin polarity="Output" x="416" y="-224" name="RegFileOut2(31:0)" />
+    <pin polarity="Output" x="416" y="-160" name="ALUOut(31:0)" />
+    <pin polarity="Output" x="416" y="-96" name="PCOut(31:0)" />
+    <pin polarity="Output" x="416" y="-32" name="DataMemOut(31:0)" />
+    <graph>
+        <rect width="288" x="64" y="-320" height="320" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="208" y="-328" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-288" type="pin START" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin CLK" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="344" y="-288" type="pin RegFileOut1(31:0)" />
+        <rect width="64" x="352" y="-300" height="24" />
+        <line x2="416" y1="-288" y2="-288" x1="352" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="344" y="-224" type="pin RegFileOut2(31:0)" />
+        <rect width="64" x="352" y="-236" height="24" />
+        <line x2="416" y1="-224" y2="-224" x1="352" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="344" y="-160" type="pin ALUOut(31:0)" />
+        <rect width="64" x="352" y="-172" height="24" />
+        <line x2="416" y1="-160" y2="-160" x1="352" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="344" y="-96" type="pin PCOut(31:0)" />
+        <rect width="64" x="352" y="-108" height="24" />
+        <line x2="416" y1="-96" y2="-96" x1="352" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="344" y="-32" type="pin DataMemOut(31:0)" />
+        <rect width="64" x="352" y="-44" height="24" />
+        <line x2="416" y1="-32" y2="-32" x1="352" />
+    </graph>
+</symbol>

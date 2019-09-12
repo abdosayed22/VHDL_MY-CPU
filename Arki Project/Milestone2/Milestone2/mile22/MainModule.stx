@@ -1,0 +1,118 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/year 3/semester 2/material/archi/project/mile2/Milestone2/Milestone2/Milestone2/mile22/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to D:/year 3/semester 2/material/archi/project/mile2/Milestone2/Milestone2/Milestone2/mile22/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: MainModule.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\year 3\semester 2\material\archi\project\mile2\Milestone2\Milestone2\Milestone2\package_register.vhd" into library work
+Parsing package <package_register>.
+Parsing VHDL file "D:\year 3\semester 2\material\archi\project\mile2\Milestone2\Milestone2\Milestone2\packageALU.vhd" into library work
+Parsing package <packageALU>.
+Parsing VHDL file "D:\year 3\semester 2\material\archi\project\mile2\Milestone2\Milestone2\Milestone2\multx4.vhd" into library work
+Parsing entity <multx4>.
+Parsing architecture <Behavioral> of entity <multx4>.
+Parsing VHDL file "D:\year 3\semester 2\material\archi\project\mile2\Milestone2\Milestone2\Milestone2\multx2.vhd" into library work
+Parsing entity <multx2>.
+Parsing architecture <Behavioral> of entity <multx2>.
+Parsing VHDL file "D:\year 3\semester 2\material\archi\project\mile2\Milestone2\Milestone2\Milestone2\fulladder.vhd" into library work
+Parsing entity <fulladder>.
+Parsing architecture <Behavioral> of entity <fulladder>.
+Parsing VHDL file "D:\year 3\semester 2\material\archi\project\mile2\Milestone2\Milestone2\Milestone2\Reg32_1.vhd" into library work
+Parsing entity <reg32_1>.
+Parsing architecture <Behavioral> of entity <reg32_1>.
+Parsing VHDL file "D:\year 3\semester 2\material\archi\project\mile2\Milestone2\Milestone2\Milestone2\Reg32_0.vhd" into library work
+Parsing entity <Reg32_0>.
+Parsing architecture <Behavioral> of entity <reg32_0>.
+Parsing VHDL file "D:\year 3\semester 2\material\archi\project\mile2\Milestone2\Milestone2\Milestone2\onebitALU.vhd" into library work
+Parsing entity <onebitALU>.
+Parsing architecture <Behavioral> of entity <onebitalu>.
+Parsing VHDL file "D:\year 3\semester 2\material\archi\project\mile2\Milestone2\Milestone2\Milestone2\multx.vhd" into library work
+Parsing entity <multx>.
+Parsing architecture <Behavioral> of entity <multx>.
+Parsing VHDL file "D:\year 3\semester 2\material\archi\project\mile2\Milestone2\Milestone2\Milestone2\lastonebitALU.vhd" into library work
+Parsing entity <lastonebitALU>.
+Parsing architecture <Behavioral> of entity <lastonebitalu>.
+Parsing VHDL file "D:\year 3\semester 2\material\archi\project\mile2\Milestone2\Milestone2\Milestone2\GenericReg.vhd" into library work
+Parsing entity <reg>.
+Parsing architecture <Behavioral> of entity <reg>.
+Parsing VHDL file "D:\year 3\semester 2\material\archi\project\mile2\Milestone2\Milestone2\Milestone2\decoder.vhd" into library work
+Parsing entity <decoder>.
+Parsing architecture <Behavioral> of entity <decoder>.
+Parsing VHDL file "D:\year 3\semester 2\material\archi\project\mile2\Milestone2\Milestone2\Milestone2\RegisterFile.vhd" into library work
+Parsing entity <RegisterFile>.
+Parsing architecture <Behavioral> of entity <registerfile>.
+Parsing VHDL file "D:\year 3\semester 2\material\archi\project\mile2\Milestone2\Milestone2\Milestone2\mile22\sign_extent.vhd" into library work
+Parsing entity <sign_extent>.
+Parsing architecture <Behavioral> of entity <sign_extent>.
+Parsing VHDL file "D:\year 3\semester 2\material\archi\project\mile2\Milestone2\Milestone2\Milestone2\mile22\multx2_bit.vhd" into library work
+Parsing entity <multx2_bit>.
+Parsing architecture <Behavioral> of entity <multx2_bit>.
+Parsing VHDL file "D:\year 3\semester 2\material\archi\project\mile2\Milestone2\Milestone2\Milestone2\mile22\fulladder_pc.vhd" into library work
+Parsing entity <fulladder_pc>.
+Parsing architecture <Behavioral> of entity <fulladder_pc>.
+Parsing VHDL file "D:\year 3\semester 2\material\archi\project\mile2\Milestone2\Milestone2\Milestone2\mile22\CU.vhd" into library work
+Parsing entity <CU>.
+Parsing architecture <Behavioral> of entity <cu>.
+Parsing VHDL file "D:\year 3\semester 2\material\archi\project\mile2\Milestone2\Milestone2\Milestone2\mile22\ALUControl.vhd" into library work
+Parsing entity <ALUControl>.
+Parsing architecture <Behavioral> of entity <alucontrol>.
+Parsing VHDL file "D:\year 3\semester 2\material\archi\project\mile2\Milestone2\Milestone2\Milestone2\InstMem.V3.vhd" into library work
+Parsing entity <INSTRMEMORY>.
+Parsing architecture <BEHAVIORAL> of entity <instrmemory>.
+Parsing VHDL file "D:\year 3\semester 2\material\archi\project\mile2\Milestone2\Milestone2\Milestone2\Datamem.V4.vhd" into library work
+Parsing entity <DATAMEMORY>.
+Parsing architecture <BEHAVIORAL> of entity <datamemory>.
+Parsing VHDL file "D:\year 3\semester 2\material\archi\project\mile2\Milestone2\Milestone2\Milestone2\ALU.vhd" into library work
+Parsing entity <ALU>.
+Parsing architecture <Behavioral> of entity <alu>.
+Parsing VHDL file "D:\year 3\semester 2\material\archi\project\mile2\Milestone2\Milestone2\Milestone2\MainModule.vhd" into library work
+Parsing entity <MainModule>.
+Parsing architecture <Behavioral> of entity <mainmodule>.
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.39 secs
+ 
+--> 
+
+Total memory usage is 230080 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
